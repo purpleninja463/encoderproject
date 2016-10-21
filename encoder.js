@@ -1,5 +1,8 @@
 var letters = {
-66:"b"
+65:"a",
+66:"b",
+67:"c",
+68:"d",
 };
 
   $("#inputArea").keydown(function(e) {
