@@ -7,7 +7,7 @@ var letters = {
 
   $("#inputArea").keydown(function(e) {
     if ($("input:checked").val() == "echo")  {
-      $("#textArea").append(translation[e.keycode]);
+       $("#textArea").append(String.fromCharCode(event.which));
     }
 
 if ($("input:checked").val() == "shiftcipher")  {
